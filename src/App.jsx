@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import TareaApp from "./TareaApp";
+
 function App() {
 
 	return (
@@ -12,7 +14,8 @@ function App() {
             </a>
 					</div>
 				</nav>
-			</div>
+      </div>
+      <TareaApp/>
 		</>
 	);
 }
